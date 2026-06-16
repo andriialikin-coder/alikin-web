@@ -37,20 +37,18 @@ export default function Hero() {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 xl:gap-24">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 xl:gap-16">
           
           {/* Photo */}
-          <div className="w-full max-w-xs sm:max-w-sm lg:max-w-md xl:max-w-lg shrink-0 relative mx-auto lg:mx-0">
-            {/* Decorative shadow behind image */}
-            <div className="absolute inset-0 bg-indigo-500 rounded-[2rem] blur-2xl opacity-20 translate-y-6 translate-x-4" aria-hidden="true" />
+          <div className="w-48 sm:w-56 lg:w-64 xl:w-72 shrink-0 relative mx-auto lg:mx-0">
             <Image
               src="/me.webp"
               alt="Андрей Аликин"
-              width={500}
-              height={600}
+              width={300}
+              height={300}
               priority
-              className="relative w-full h-auto rounded-[2rem] object-cover shadow-2xl border-8 border-white"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="w-full h-auto rounded-[2rem] object-cover shadow-xl"
+              sizes="(max-width: 1024px) 300px, 300px"
             />
           </div>
 
