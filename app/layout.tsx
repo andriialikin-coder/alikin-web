@@ -9,15 +9,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Алёша Аликин — Fullstack Developer & Архитектор',
+  title: 'Андрей Аликин — Fullstack Developer & Архитектор',
   description:
     'Разрабатываю продукты, которые масштабируются и приносят деньги. Открыт к новым проектам и коллаборациям.',
   keywords: ['fullstack', 'developer', 'next.js', 'react', 'typescript', 'portfolio'],
-  authors: [{ name: 'Алёша Аликин' }],
+  authors: [{ name: 'Андрей Аликин' }],
   openGraph: {
     type: 'website',
     locale: 'ru_RU',
-    title: 'Алёша Аликин — Fullstack Developer',
+    title: 'Андрей Аликин — Fullstack Developer',
     description:
       'Разрабатываю продукты, которые масштабируются и приносят деньги.',
     siteName: 'Alikin.dev',

@@ -40,7 +40,7 @@ export default function Footer() {
               Alikin<span className="text-indigo-400">.dev</span>
             </span>
             <p className="text-sm text-slate-400">
-              &copy; {currentYear} Алёша Аликин. Все права защищены.
+              &copy; {currentYear} Андрей Аликин. Все права защищены.
             </p>
           </div>
 
